@@ -1,0 +1,21 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000/api",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "cd server && nodemon src/server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  }
+}
