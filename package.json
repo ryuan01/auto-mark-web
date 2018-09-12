@@ -4,11 +4,13 @@
   "private": true,
   "proxy": "http://localhost:5000/api",
   "dependencies": {
+    "child-process-promise": "^2.2.1",
     "cors": "^2.8.4",
     "express": "^4.16.2",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
-    "react-scripts": "1.1.5"
+    "react-scripts": "1.1.5",
+    "vnu-jar": "^18.8.29"
   },
   "scripts": {
     "client": "cd client && yarn start",
